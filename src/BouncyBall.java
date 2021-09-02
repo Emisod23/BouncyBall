@@ -3,14 +3,13 @@ public class BouncyBall {
         double Ballx;
         double Bally = 100;
         double Ballpos;
-        double Ballspeed = 0;
+        double Ballspeed = 1;
         double Ballacc = 1;
         double Time = 0;
 
-        for(int i = 0; i >= 120; ++i);{
-            --Ballspeed;
-            Ballpos = Bally - Ballspeed;
-            System.out.println(Ballpos);
+        for(int i = 0; i < 100; i++){
+            Bally--;
+            System.out.println(Bally);
         }
     }
 }
